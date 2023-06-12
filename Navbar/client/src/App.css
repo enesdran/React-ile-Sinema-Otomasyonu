@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  gap: 16px;
+  min-height: 110px;
+  min-width: 750px;
+  padding: 16px;
+  color: white;
+
+  overflow: hidden;
+  white-space: pre-wrap;
+}
+.movie__card {
+  flex: 1;
+}
+
+.movie__title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.movie__description {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  white-space: pre-wrap;
+}
